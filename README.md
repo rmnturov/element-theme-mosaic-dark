@@ -1,14 +1,11 @@
-# vue-project
+# Element UI Dark Theme
 
-This template should help get you started developing with Vue 3 in Vite.
+Тема для Element UI 2
 
-## Recommended IDE Setup
+* Структура SCSS из element-theme-chalk
+* Токены из From Mosaic UI (PT-2022 Skin)
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+SCSS-переменные токенов Мозаика просто скопировал и вставил в проект в папке assets/scss/mosaic. Потом импортировал их в common/var.scss и использовал
 
 ## Project Setup
 
@@ -27,3 +24,6 @@ npm run dev
 ```sh
 npm run build
 ```
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
