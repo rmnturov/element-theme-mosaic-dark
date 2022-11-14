@@ -1,0 +1,24 @@
+{
+  "name": "element-ui-theme-dark",
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "browserslist": [
+    " last 2 versions"
+  ],
+  "dependencies": {
+    "element-ui": "^2.15.10",
+    "vue": "^2.7.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-legacy": "^2.0.0",
+    "@vitejs/plugin-vue2": "^1.1.2",
+    "autoprefixer": "^10.4.13",
+    "sass": "^1.56.1",
+    "terser": "^5.14.2",
+    "vite": "^3.0.2"
+  }
+}

@@ -1,0 +1,118 @@
+:root {
+
+    /* Transition
+-------------------------- */
+    --all-transition: all .3s cubic-bezier(.645,.045,.355,1);
+    --fade-transition: opacity 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    --fade-linear-transition: opacity 200ms linear;
+    --md-fade-transition: transform 300ms cubic-bezier(0.23, 1, 0.32, 1), opacity 300ms cubic-bezier(0.23, 1, 0.32, 1);
+    --border-transition-base: border-color .2s cubic-bezier(.645,.045,.355,1);
+    --color-transition-base: color .2s cubic-bezier(.645,.045,.355,1);
+
+
+    /* Color
+-------------------------- */
+    --color-primary: #409EFF;
+    /* --color-primary: mix(#f00, #00f); */
+    --color-primary: color(red a(60%));
+    --color-primary: color(var(--color-warning) a(60%));
+    --color-white: white;
+    --color-black: hsl(0, 0%, 10%);
+    --color-primary-light-1: #53a8ff;
+    --color-primary-light-2: #66b1ff;
+    --color-primary-light-3: #79bbff;
+    --color-primary-light-4: #8cc5ff;
+    --color-primary-light-5: #a0cfff;
+    --color-primary-light-6: #b3d8ff;
+    --color-primary-light-7: #c6e2ff;
+    --color-primary-light-8: #d9ecff;
+    --color-primary-light-9: #ecf5ff;
+    --color-success: #67C23A;
+    /* --color-primary: mix(var(--color-white), var(--color-success)); */
+    --color-warning: #E6A23C;
+    --color-danger: #F56C6C;
+    --color-info: #909399;
+    --color-text-primary: white;
+    --color-text-regular: hsl(0, 0%, 10%);
+    --color-text-secondary: hsl(0, 0%, 30%);
+    --color-text-placeholder: hsl(0, 0%, 50%);
+    /* --color-success-light: mix(var(--color-white), var(--color-success), 80%);
+    --color-warning-light: mix(var(--color-white), var(--color-warning), 80%);
+    --color-danger-light: mix(var(--color-white), var(--color-danger), 80%);
+    --color-info-light: mix(var(--color-white), var(--color-info), 80%);
+    --color-success-lighter: mix(var(--color-white), var(--color-success), 90%);
+    --color-warning-lighter: mix(var(--color-white), var(--color-warning), 90%);
+    --color-danger-lighter: mix(var(--color-white), var(--color-danger), 90%);
+    --color-info-lighter: mix(var(--color-white), var(--color-info), 90%); */
+
+
+
+    /* Background */
+    --background-color-base: var(--color-black);
+    --background-color-base: hsl(0, 0%, 15%);
+
+    /* Link */
+    --link-color: var(--color-primary-light-2);
+    --link-hover-color: var(--color-primary);
+
+    /* Border
+-------------------------- */
+    --border-width-base: 1px;
+    --border-style-base: solid;
+    --border-color-hover: var(--color-text-placeholder);
+    --border-base: var(--border-width-base) car(--border-style-base) var(--border-color-base);
+
+    --border-color-base: hsl(0, 0%, 50%);
+    --border-color-light: hsl(0, 0%, 40%);
+    --border-color-lighter: hsl(0, 0%, 30%);
+    --border-color-extra-light: hsl(0, 0%, 20%);
+    --border-radius-base: 4px;
+    --border-radius-small: 2px;
+    --border-radius-circle: 100%;
+    --border-radius-zero: 0;
+
+    /* Box-shadow */
+    --box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .04);
+    --box-shadow-dark: 0 2px 4px rgba(0, 0, 0, .12), 0 0 6px rgba(0, 0, 0, .12);
+    --box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+
+    /* Fill
+-------------------------- */
+    --fill-base: var(--color-white);
+
+    /* Typography
+-------------------------- */
+    --font-path: 'fonts';
+    --font-display: 'auto';
+    --font-size-extra-large: 20px;
+    --font-size-large: 18px;
+    --font-size-medium: 16px;
+    --font-size-base: 14px;
+    --font-size-small: 13px;
+    --font-size-extra-small: 12px;
+    --font-weight-primary: 500;
+    --font-weight-secondary: 100;
+    --font-line-height-primary: 24px;
+    --font-line-height-secondary: 16px;
+    --font-color-disabled-base: #bbb;
+    /* Size
+    -------------------------- */
+    --size-base: 14px;
+
+    /* z-index
+    -------------------------- */
+    --index-normal: 1;
+    --index-top: 1000;
+    --index-popper: 2000;
+
+    /* Disable base
+    -------------------------- */
+    --disabled-fill-base: var(--background-color-base);
+    --disabled-color-base: var(--color-text-placeholder);
+    --disabled-border-base: var(--border-color-light);
+
+    /* Icon
+-------------------------- */
+    --icon-color: #666;
+    --icon-color-base: var(--color-info);
+}
