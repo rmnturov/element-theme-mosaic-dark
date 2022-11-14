@@ -1,7 +1,5 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
-// import TheWelcome from './components/TheWelcome.vue'
-import './assets/theme-dark-scss/src/index.scss';
+import './assets/scss/index.scss';
 </script>
 
 <template>
@@ -69,14 +67,12 @@ export default {
 </script>
 
 <style lang="scss">
-  @import "./assets/theme-dark-scss/src/common/var.scss";
+  @import "./assets/scss/common/var.scss";
   
   #app {
     background: $dark-color-scheme-background-background;
     color: $dark-color-scheme-foreground-text;
     font-family: $font-family-base;
     font-smooth: antialiased;
-    // -webkit-font-smoothing: antialiased;
-    transition: transform 1s;
   }
 </style>
